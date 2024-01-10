@@ -24,7 +24,7 @@ Future<List<dynamic>> searchTable(String search) async {
 }
 ```
 
-The Postgres query to  seach a specific column for like terms. No case sensitive
+The Postgres query to  seach a specific column for like terms. Not case sensitive
 
 ```
 CREATE OR REPLACE FUNCTION search_table_column(p_search_term text)
